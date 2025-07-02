@@ -75,16 +75,6 @@ GROUP BY c.age_group
 ORDER BY total_sales DESC;
 ```
 
----
-
-## 📸 Screenshots (optional)
-*Place your query result screenshots here if desired.*
-
----
-
-## 🧑‍🎓 Made With Love by:
-**Yashitha**, Data Engineering Student  
-> *"Learning cloud, data & curiosity one query at a time."*
 
 ---
 
