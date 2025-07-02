@@ -1,0 +1,4 @@
+sales_id,product_id,customer_id,time_id,quantity,total_amount
+501,101,1,1001,2,240.0
+502,102,2,1002,1,80.0
+503,103,3,1003,4,180.0
