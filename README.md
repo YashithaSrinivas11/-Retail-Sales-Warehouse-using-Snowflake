@@ -1,8 +1,9 @@
 
-# 🧊 Retail Sales Analytics Warehouse using Snowflake
+ # 🧊 Retail Sales Analytics Warehouse using Snowflake
+
 
 ## 📌 Project Summary
-This project demonstrates how to design and implement a mini data warehouse using **Snowflake** to analyze retail sales across products, customers, and time periods. Built as a student portfolio project, it showcases dimensional modeling, SQL querying, and cloud data warehousing best practices.
+This project demonstrates how to design and implement a mini data warehouse using **Snowflake** to analyze retail sales across products, customers, and time periods. Built as a student portfolio project, it showcases dimensional modeling, SQL querying, and cloud data warehousing best practices.Also automated data ingestion in Snowflake using Snowpipe and Azure Blob Storage
 
 ## 🧠 Objective
 Build a data warehouse to answer key business questions such as:
@@ -80,7 +81,27 @@ ORDER BY total_sales DESC;
 
 ## 📈 Future Improvements
 - Add new dimensions like Store or Region
-- Automate data ingestion using Snowpipe
+- Automate data ingestion using Snowpipe(Completed)
+- 🔄 Snowflake Snowpipe Integration (Azure Blob Storage)
+This project demonstrates how to automate data ingestion in Snowflake using Snowpipe and Azure Blob Storage.
+
+✅ Connected Snowflake to an external stage using a secure SAS token
+
+✅ Created a Snowflake stage pointing to Azure Blob container
+
+✅ Defined a Snowpipe to load data into the FACT_SALES table automatically
+
+✅ Triggered the Snowpipe using ALTER PIPE ... REFRESH to test ingestion
+
+✅ Verified updated query results reflecting newly loaded data
+
+This setup simulates a real-world streaming ingestion pipeline, enabling seamless cloud-based ETL.
+![Screenshot (78)](https://github.com/user-attachments/assets/8fb21ca1-1773-483d-9faf-8c965b41c6d6)
+![Screenshot (77)](https://github.com/user-attachments/assets/1646a851-4e35-4124-bff4-91fbc77046f0)
+![Screenshot (76)](https://github.com/user-attachments/assets/7f7e2085-e063-4460-8e77-227e1ed4208b)
+
+
+
 - Build dashboards with Power BI or Streamlit
 
 ---
