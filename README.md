@@ -1,9 +1,10 @@
 
- # 🧊 Retail Sales Analytics Warehouse using Snowflake
+# 🧊 Real-Time Retail Analytics using Snowflake Snowpipe & Azure Storage
+
 
 
 ## 📌 Project Summary
-This project demonstrates how to design and implement a mini data warehouse using **Snowflake** to analyze retail sales across products, customers, and time periods. Built as a student portfolio project, it showcases dimensional modeling, SQL querying, and cloud data warehousing best practices.Also automated data ingestion in Snowflake using Snowpipe and Azure Blob Storage
+This project demonstrates how to design and implement a mini data warehouse using **Snowflake** to analyze retail sales across products, customers, and time periods. Built as a student portfolio project, it showcases dimensional modeling, SQL querying, and cloud data warehousing best practices.Also automated data ingestion in Snowflake using Snowpipe and Azure Blob Storage.
 
 ## 🧠 Objective
 Build a data warehouse to answer key business questions such as:
