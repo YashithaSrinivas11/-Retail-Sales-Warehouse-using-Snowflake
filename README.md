@@ -79,10 +79,7 @@ ORDER BY total_sales DESC;
 
 
 ---
-
-## 📈 Future Improvements
-- Add new dimensions like Store or Region
-- Automate data ingestion using Snowpipe(Completed)
+- Automate data ingestion using Snowpipe
 - 🔄 Snowflake Snowpipe Integration (Azure Blob Storage)
 This project demonstrates how to automate data ingestion in Snowflake using Snowpipe and Azure Blob Storage.
 
